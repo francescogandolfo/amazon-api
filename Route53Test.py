@@ -3,11 +3,10 @@ import requests
 import requests_aws4auth as aws4auth
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
-from credentials import access_id, access_key, region
+from credentials import access_id, access_key, region,zoneid
 
 
 endpoint = 'https://route53.amazonaws.com/2013-04-01/hostedzone/'
-zoneid = 'Z2SKZ89DYCIC36'
 
 ns = 'https://route53.amazonaws.com/doc/2013-04-01/'
 
